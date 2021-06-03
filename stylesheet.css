@@ -40,6 +40,7 @@ body{
     background:#e3cdc1;
     overflow-x: hidden;
     padding-left: 35rem;
+    transition: background 0.5s;
 }
 
 section{
@@ -380,7 +381,7 @@ body.dark {
 }
 
 header.dark {
-    background: #111;
+    background: #1B1B1B;
 }
 
 .checkbox {
