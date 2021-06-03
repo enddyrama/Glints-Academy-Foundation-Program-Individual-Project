@@ -34,9 +34,12 @@ $('a[href*="#"]').on('click',function(e){
 
 // dark mode
 const chk = document.getElementById('chk');
+var darkmode = document.body;
+var header = document.getElementById("header");
 
 chk.addEventListener('change', () => {
-  document.body.classList.toggle('dark');
+  darkmode.classList.toggle('dark');
+  header.classList.toggle('dark');
 });
 
 
