@@ -82,11 +82,10 @@ section{
 
 header{
     position: fixed;
-    padding: 5px;
     top:0; left:0;
     z-index: 1000;
     height:100%;
-    width:35rem;
+    width:36rem;
     background:#f6e6cb;
     display: flex;
     align-items: center;
