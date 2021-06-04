@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
-:root{
-    --brown:#B37A4C;
-}
-
 *{
     font-family: 'Nunito', sans-serif;
     margin:0; padding:0;
@@ -15,7 +11,7 @@
 }
 
 *::selection{
-    background:var(--brown);
+    background:#B37A4C;
     color:#333;
 }
 
@@ -33,7 +29,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background:var(--brown);
+    background:#B37A4C;
 }
 
 body{
@@ -64,7 +60,7 @@ section{
 }
 
 .btn:hover{
-    background:var(--brown);
+    background:#a0937d;
 }
 
 .heading{
@@ -96,7 +92,7 @@ header .user img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border:.7rem solid var(--brown);
+    border:.7rem solid #B37A4C;
 }
 
 header .user .name{
@@ -133,7 +129,7 @@ header .navbar ul li a{
 }
 
 header .navbar ul li a:hover{
-    background:var(--brown);
+    background:#B37A4C;
 }
 
 #menu{
@@ -187,7 +183,7 @@ header .navbar ul li a:hover{
 
 .about .row .info h3{
     font-size: 2rem;
-    color:var(--brown);
+    color:#B37A4C;
     padding:1rem 0;
     font-weight: normal;
 }
@@ -269,7 +265,7 @@ header .navbar ul li a:hover{
     text-align: center;
     font-size: 2rem;
     color:#fff;
-    background:var(--brown);
+    background:#B37A4C;
 }
 
 .portfolio .box-container{
@@ -360,7 +356,7 @@ header .navbar ul li a:hover{
 
 .contact .row .content .info h3 i{
     padding-right: 1rem;
-    color:var(--brown);
+    color:#B37A4C;
 }
 
 .top{
