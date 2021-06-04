@@ -76,10 +76,6 @@ section{
     color:#a0937d;
 }
 
-.heading span{
-    color:var(--brown);
-}
-
 header{
     position: fixed;
     top:0; left:0;
@@ -106,6 +102,9 @@ header .user img{
 header .user .name{
     font-size: 3.5rem;
     color:#B37A4C;
+    animation: animate 5s linear infinite;
+    outline: none;
+
 }
 
 header .user .post{
@@ -166,10 +165,6 @@ header .navbar ul li a:hover{
     color:#a0937d;
 }
 
-.home h1 span{
-    color:var(--brown);
-}
-
 .home p{
     font-size:2rem;
     color:#a0937d;
@@ -198,7 +193,6 @@ header .navbar ul li a:hover{
 }
 
 .about .row .info h3 span{
-    color:#a0937d;
     padding:0 .5rem;
 }
 
@@ -217,9 +211,9 @@ header .navbar ul li a:hover{
     margin:2rem;
 }
 
-.about .row .counter .box span{
+.about .row .counter .box h1{
     font-size: 4rem;
-    color:var(--brown);
+    color: #B37A4C;;
 }
 
 .about .row .counter .box h3{
@@ -244,7 +238,8 @@ header .navbar ul li a:hover{
     position: relative;
 }
 
-.education .box-container .box span{
+.education .box-container .box h1{
+    text-align: center;
     font-size: 1.3rem;
     background:#a0937d;
     color:#fff;
@@ -483,9 +478,9 @@ header.dark {
 
 /* calculator */
 
-.extra-exercise{
+/* .extra-exercise{ */
     /* display: none; */
-    width: 350px;
+    /* width: 350px;
     background: #B37A4C;
     border-radius: 40px;
     margin: auto;
@@ -537,11 +532,46 @@ input#equal{
     color: white;
     background: #e7d4b5;
     border: 1px solid #a0937d;
-}
+} */
 
 /* calculator */
 
+/* Animate */
+span {
+    animation: 
+    animate 5s linear infinite,
+    moving 18s infinite;
+    outline: none;
+    line-height: 0.70em;
+}
 
+@keyframes animate {
+    0%
+    {
+        color: #fff;
+        text-shadow: none;
+    }
+    100%
+    {
+        color: #B37A4C;
+        text-shadow: 0 0 10px #B37A4C;
+    }
+}
+
+@keyframes moving {
+    0%{margin-left: 100px;}
+    10%{margin-left: 50px;}
+    20%{margin-right: 100px;}
+    30%{margin-right: 50px;}
+    40%{margin-left: 100px;}
+    50%{margin-left: 50px;}
+    60%{margin-right: 100px;}
+    70%{margin-right: 50px;}
+    80%{margin-left: 100px;}
+    90%{margin-left: 50px;}
+    100%{margin-right: 100px;}
+}
+/* animate */
 
 
 
